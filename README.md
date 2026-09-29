@@ -52,3 +52,5 @@ worm2d -f <outputFolder> [-E] [-O <modelName>] [-T <modelFolder>] [...]
 ```
 
 Key flags: `-E` / `--doEvol` runs the evolutionary search; `-f` specifies the output folder (required); `-O` sets the model name when using the `Worm2D` binary family.
+
+
