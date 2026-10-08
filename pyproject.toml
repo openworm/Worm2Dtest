@@ -29,3 +29,11 @@ build-dir = "build/{wheel_tag}"
 [tool.scikit-build.cmake.define]
 # Force CMake to find the same Python that pip is using
 Python3_EXECUTABLE = {env = "PYTHON", default = ""}
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
